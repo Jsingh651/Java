@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.top{
+	width:50%;
+	margin: 0 auto;
+	margin-top: 24px;
+	overflow-y: scroll;
+}
+
+form{
+	
+	font-weight: bold;
+	display: flex;
+	flex-direction:column;
+		margin: 0 auto;
+		width:60%;
+	margin-top: 24px;
+}
+textarea{
+	    resize: none;
+	
+	width:280px;
+	max-height:60px;
+    border-radius:12px;
+    
+}
+
+.bottomform{
+	background:black;
+	color:white;
+	padding:20px;
+	width:500px;
+	margin: 0 auto;
+	margin-top: 200px;
+	
+}
+input{
+	border:none;
+	border-radius:12px;
+	padding:6px;
+}
+.buttondiv{
+width:50%;
+margin: 0 auto;
+margin-top: 12px;
+
+}
+.error{
+	color:red;
+	font-size:12px;
+	width:120%;
+}
